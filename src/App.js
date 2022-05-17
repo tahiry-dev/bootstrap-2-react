@@ -1,9 +1,10 @@
 import './App.css';
+import Index from './Components/Navigation/Index';
 
 function App() {
   return (
-    <div className="App">
-       <p>Project initialization</p>
+    <div className="sb-nav-fixed">
+       <Index />
     </div>
   );
 }
