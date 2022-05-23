@@ -1,10 +1,14 @@
 import './App.css';
-import Index from './Components/Navigation/Index';
+import Navigation from './Components/Navigation/Index';
+import Aside from './Components/Aside/Index';
 
 function App() {
   return (
     <div className="sb-nav-fixed">
-       <Index />
+       <Navigation />
+       <div id="layoutSidenav">
+          <Aside />
+       </div>
     </div>
   );
 }
