@@ -1,8 +1,9 @@
 import React from 'react';
 import DividerTitle from './DividerTitle';
 import IconTitle from './IconTitle';
-import DropdownUp from './DropdownUp';
-import Dropdown from './DropDown';
+import Dropdown from './Dropdown';
+import FooterAside from './FooterAside';
+
 
 function Index() {
   return <div id="layoutSidenav_nav">
@@ -15,12 +16,20 @@ function Index() {
                             Dashboard
                         </IconTitle>
                         <DividerTitle>INTERFACE</DividerTitle>
-                        <DropdownUp />
-                        <DividerTitle>ADDONS</DividerTitle>
                         <Dropdown />
+                        <DividerTitle>ADDONS</DividerTitle>
+                        <IconTitle>
+                            <i class="fas fa-chart-area"></i>
+                            Charts
+                        </IconTitle>
+                        <IconTitle>
+                            <i class="fas fa-table"></i>
+                            Tables
+                        </IconTitle>    
                     </div>
                 </div>
+                <FooterAside />
             </nav>
-    </div>
+        </div>
 }
 export default Index;
