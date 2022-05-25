@@ -1,59 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bootsrap to React
 
-> One paragraph statement about the project.
+> The Objective is to divide a bootstrap website into a component based web app through React
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Bootstrap CSS is downloaded inside a stylesheet file and imported from a public HTML file in react. Some icons and javascript features are imported through CDN
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Major languages: HTML5, CSS3, JSX, and Javascript 
+- Frameworks: React
+- Technologies used: create-react-app, VsCode
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+  To get this project up and running locally, you must have nodeJs
 
-### Setup
+# Step 1
+   Navigate through the local folder where you want to clone the repository and run
+   ``git clone https://github.com/tahiry-dev/bootstrap-2-react.git``
 
-### Install
+# Step 2
+  get inside the local folder where you cloned the repository
 
-### Usage
+# Step 3
+  Run ``npm install`` to install the npm packages from the ``package.json`` file.
 
-### Run tests
-
-### Deployment
-
-
+# Step 4
+  Run ``npm start`` to start the application, you can now navigate to http://localhost:3000 to enjoy it!
 
 ## Authors
 
-👤 **Author1**
+👤 **Tahiry RANDRIAMIARINTSOA**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@tahiry-dev](https://github.com/tahiry-dev)
+- LinkedIn: [Tahiry](https://www.linkedin.com/in/tahiry-randriamiarintsoa/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -67,9 +55,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- nice icon by fonteawesome 
+- bootstrap design by [Mr nyhasina](https://github.com/nyhasina)
 
 ## 📝 License
 
